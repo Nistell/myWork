@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  min-height: 400px;
+  font-family: Hubballi;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__column {
+  border: 1px solid lightgray;
+  width: 380px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.form__img {
+  width: 280px;
+  height: 400px;
+  background: url('img/rubashka.jpg')0 0/cover no-repeat;
+}
+/* .option__number,
+.option__size,
+.option__color, */
+.option__size2,
+.option__color2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid lightgray;
+  border-top: none;
+  border-bottom: none;
+  font-size: 14px;
+  outline: none;
+}
+.form__title {
+  font-size: 27px;
+}
+.form__footer h3 {
+  font-size: 22px;
+}
+.option__number,
+.option__size,
+.option__color {
+  margin: 0 5px;
+}
+.option__number2 {
+  text-align: center;
+  width: 47px;
+  height: 48px;
+  border: 1px solid lightgray;
+  border-top: none;
+  border-bottom: none;
+  font-size: 20px;
+}
+.form__footer,
+.form__body,
+.form__img {
+  /* border: 1px solid black; */
+  width: 100%;
+}
+.form__footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+h3 {
+  margin: 0 5px 0 0;
+}
+.form__options {
+  display: flex;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-left: none;
+  border-right: none;
+}
+.form__body {
+  /* height: 100%; */
+}
